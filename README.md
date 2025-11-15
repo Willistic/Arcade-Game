@@ -1,16 +1,50 @@
-# React + Vite
+# Arcade Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple arcade-style game built with React and HTML Canvas. Control a blue square, collect green circles to score points, and avoid red enemies!
 
-Currently, two official plugins are available:
+## 🎮 How to Play
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Controls**: Use arrow keys (←↑↓→) to move the blue square
+- **Objective**: Collect green circles to increase your score
+- **Challenge**: Avoid the red enemy squares that bounce around the screen
+- **Difficulty**: Orange fast-moving enemies spawn every 10 seconds
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Real-time collision detection
+- Particle effects when collecting power-ups or dying
+- Progressive difficulty with enemy spawning
+- Score tracking system
+- Game over and restart functionality
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React 18
+- Vite
+- HTML5 Canvas API
+- JavaScript ES6+
+
+## 📦 Installation
+
+```bash
+npm install
+```
+
+## 🏃 Running the Game
+
+```bash
+npm run dev
+```
+
+Then open your browser and navigate to the provided local URL (typically `http://localhost:5173`)
+
+## 🎯 Game Mechanics
+
+- **Player**: Blue square that you control
+- **Score Power-up**: Green circles that award 1 point when collected
+- **Enemies**: Red squares that bounce around randomly
+- **Fast Enemies**: Orange squares that move twice as fast (spawn every 10 seconds)
+
+## 📄 License
+
+MIT
