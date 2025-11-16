@@ -11,8 +11,8 @@ class GameObject {
 		this.color = color;
 	}
 
-	update(dt, game) {}
-	draw(ctx) {}
+	update() {}
+	draw() {}
 }
 
 class Particle extends GameObject {
